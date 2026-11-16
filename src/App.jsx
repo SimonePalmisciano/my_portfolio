@@ -1,10 +1,14 @@
-import HomePage from "./pages/HomePage";
+import Hero from "./sections/Hero.jsx";
+import About from "./sections/About.jsx";
 
 
 
 function App() {
   return (
-    <HomePage />
+    <>
+      <Hero />
+      <About />
+    </>
   )
 }
 export default App;

@@ -25,4 +25,6 @@ dist-ssr
 
 # Claude
 .claude/
+
 imgExample
+structure.md
