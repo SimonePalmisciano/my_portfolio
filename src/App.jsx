@@ -1,9 +1,10 @@
-import Main from "./components/Main/Main";
+import HomePage from "./pages/HomePage";
+
 
 
 function App() {
   return (
-    <Main />
+    <HomePage />
   )
 }
 export default App;
