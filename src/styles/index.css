@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --bg-color: #1a1a1a;
     --text-color: #f0f0f0;
@@ -14,4 +21,19 @@ body {
     color: var(--text-color);
     transition: background-color 0.3s, color 0.3s;
     font-family: sans-serif;
+}
+
+.theme-toggle svg {
+    width: 20px;
+    height: 20px;
+    fill: none;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1.7;
+}
+
+.theme-toggle:hover {
+    border-color: var(--accent);
+    background: color-mix(in srgb, var(--accent) 10%, transparent);
 }

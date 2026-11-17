@@ -30,7 +30,7 @@ function Header({ theme, onThemeToggle }) {
 
                             <div>
                                 <button
-                                    className="btn"
+                                    className="btn theme-toggle"
                                     onClick={onThemeToggle}
                                     aria-label={`Passa al tema ${theme === "dark" ? "chiaro" : "scuro"}`}
                                     title={`Passa al tema ${theme === "dark" ? "chiaro" : "scuro"}`}
