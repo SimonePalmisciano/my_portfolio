@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import Header from "./partials/Header.jsx";
 import Footer from "./partials/Footer.jsx";
 import Hero from "./sections/Hero.jsx";
@@ -10,9 +11,19 @@ import Contact from "./sections/Contact.jsx";
 
 
 function App() {
+  const [theme, setTheme] = useState('dark')
+
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme)
+  }, [theme]);
+
+  function onThemeToggle() {
+    setTheme((prevTheme) => (prevTheme === 'dark' ? 'light' : 'dark'))
+  }
+
   return (
     <>
-    <Header />
+    <Header theme={theme} onThemeToggle={onThemeToggle} />
 
     <main>
 

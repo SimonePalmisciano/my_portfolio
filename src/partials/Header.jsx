@@ -1,4 +1,4 @@
-function Header({ theme }) {
+function Header({ theme, onThemeToggle }) {
     return (
         <>
             <header>
@@ -31,6 +31,9 @@ function Header({ theme }) {
                             <div>
                                 <button
                                     className="btn"
+                                    onClick={onThemeToggle}
+                                    aria-label={`Passa al tema ${theme === "dark" ? "chiaro" : "scuro"}`}
+                                    title={`Passa al tema ${theme === "dark" ? "chiaro" : "scuro"}`}
                                 >
                                     {theme === "dark" ? (
                                         <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -43,10 +46,11 @@ function Header({ theme }) {
                                         </svg>
                                     )}
                                 </button>
-                                <button
-                                    className="btn">
+                                <a
+                                    className="btn"
+                                    href="#contacts">
                                     Contattami
-                                </button>
+                                </a>
                             </div>
                         </div>
 
