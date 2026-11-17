@@ -1,6 +1,11 @@
 function Projects() {
     return (
-        <div>Projects</div>
+        <>
+            <section id="projects">
+                Projects
+            </section>
+
+        </>
     )
 }
 export default Projects

@@ -1,6 +1,10 @@
 function Journey() {
     return (
-        <div>Journey</div>
+        <>
+            <section id="journey">
+                Journey
+            </section>
+        </>
     )
 }
 export default Journey

@@ -1,6 +1,10 @@
 function Skills() {
     return (
-        <div>Skills</div>
+        <>
+            <section id="skills">
+                Skills
+            </section>
+        </>
     )
 }
 export default Skills

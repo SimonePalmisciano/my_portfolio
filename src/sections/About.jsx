@@ -1,6 +1,10 @@
 function About() {
     return (
-        <div>About</div>
+        <>
+            <section id="about">
+                About
+            </section>
+        </>
     )
 }
 export default About
