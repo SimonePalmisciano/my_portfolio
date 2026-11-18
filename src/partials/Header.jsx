@@ -2,63 +2,56 @@ import Footer from "./Footer";
 
 function Header() {
     return (
-        <>
-            <section className="" id="header">
-                <header>
-                    <div>
-                        <span id="imageAvatar">
+        <section
+            className="col-3 position-fixed top-0 end-0 vh-100 overflow-y-auto d-flex flex-column align-items-center p-4 bg-dark"
+            id="header"
+        >
+            <header className="text-center mb-4">
+                <div>
+                    <span id="imageAvatar">
 
-                        </span>
-                        <h1>
-                            Simone Palmisciano
-                        </h1>
-                        <p>
-                            Web Developer
-                        </p>
-                    </div>
-                </header>
+                    </span>
+                    <h1>
+                        Simone Palmisciano
+                    </h1>
+                    <p>
+                        Web Developer
+                    </p>
+                </div>
+            </header>
 
-                <nav className="navbar navbar-expand-lg d-flex justify-content-between">
+            <nav className="navbar w-100">
+                <ul className="navbar-nav flex-column w-100">
+                    <li className="nav-item">
+                        <a className="nav-link" href="#about">
+                            Chi sono
+                        </a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#skills">
+                            Competenze
+                        </a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#projects">
+                            Progetti
+                        </a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#passions">
+                            Passioni
+                        </a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#contact">
+                            Contatti
+                        </a>
+                    </li>
+                </ul>
+            </nav>
 
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarNavDropdown">
-                        <ul className="navbar-nav">
-                            <li className="nav-item">
-                                <a className="nav-link" href="#about">
-                                    Chi sono
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#skills">
-                                    Competenze
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#projects">
-                                    Progetti
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#journey">
-                                    Passioni
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    className="nav-link" href="#contacts">
-                                    Contatti
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-
-                </nav>
-                <Footer />
-            </section>
-        </>
+            <Footer />
+        </section>
     )
 }
 export default Header
