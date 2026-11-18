@@ -11,6 +11,13 @@ function Skills() {
                             Cosa conosco e di cosa sono capace
                         </p>
                     </header>
+                    <div className="row">
+                        {/* aggiungere immagini di tutti i linguaggi */}
+                        HTML, CSS, JAVASCRIPT, REACT
+                    </div>
+                    <div className="row">
+                        EXPRESS, NODE.JS, PHP, MYSQL
+                    </div>
                 </div>           
             </section>
         </>
