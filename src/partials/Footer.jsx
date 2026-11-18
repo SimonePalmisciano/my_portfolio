@@ -6,9 +6,12 @@ function Footer() {
                     <span className="" aria-hidden="true" />
                     <span>Portfolio</span>
                 </a>
-                <p>Progettato e realizzato con cura da Simone.</p>
-                <a className="" href="#hero">Torna su ↑</a>
-                <span className="footer-copyright">© {new Date().getFullYear()} Simone Palmisciano</span>
+                <p>
+                    Progettato e realizzato con cura da Simone.
+                </p>
+                <span className="footer-copyright">
+                    © {new Date().getFullYear()} Simone Palmisciano
+                </span>
             </div>
         </footer>
     )
