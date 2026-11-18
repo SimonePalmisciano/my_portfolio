@@ -28,12 +28,12 @@ function Header() {
                         <ul className="navbar-nav">
                             <li className="nav-item">
                                 <a className="nav-link" href="#about">
-                                    Su di Me
+                                    Chi sono
                                 </a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#skills">
-                                    Skills
+                                    Competenze
                                 </a>
                             </li>
                             <li className="nav-item">
@@ -43,13 +43,12 @@ function Header() {
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#journey">
-                                    Journey
+                                    Passioni
                                 </a>
                             </li>
                             <li>
                                 <a
-                                    className="nav-link"
-                                    href="#contacts">
+                                    className="nav-link" href="#contacts">
                                     Contatti
                                 </a>
                             </li>
