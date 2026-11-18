@@ -10,30 +10,13 @@
     --text-color: #f0f0f0;
 }
 
-[data-theme="light"] {
-    --bg-color: #ffffff;
-    --text-color: #333333;
-}
-
 body {
     margin: 0;
     background-color: var(--bg-color);
     color: var(--text-color);
-    transition: background-color 0.3s, color 0.3s;
     font-family: sans-serif;
 }
 
-.theme-toggle svg {
-    width: 20px;
-    height: 20px;
-    fill: none;
-    stroke: currentColor;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-width: 1.7;
-}
-
-.theme-toggle:hover {
-    border-color: var(--accent);
-    background: color-mix(in srgb, var(--accent) 10%, transparent);
+#header a {
+    color: #f0f0f0;
 }

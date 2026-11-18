@@ -12,13 +12,18 @@ function Header() {
                         <h1>
                             Simone Palmisciano
                         </h1>
-                        <p>Web Developer</p>
+                        <p>
+                            Web Developer
+                        </p>
                     </div>
                 </header>
+
                 <nav className="navbar navbar-expand-lg d-flex justify-content-between">
+
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
+
                     <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarNavDropdown">
                         <ul className="navbar-nav">
                             <li className="nav-item">
@@ -41,14 +46,14 @@ function Header() {
                                     Journey
                                 </a>
                             </li>
+                            <li>
+                                <a
+                                    className="nav-link"
+                                    href="#contacts">
+                                    Contatti
+                                </a>
+                            </li>
                         </ul>
-                        <div>
-                            <a
-                                className="btn"
-                                href="#contacts">
-                                Contattami
-                            </a>
-                        </div>
                     </div>
 
                 </nav>
