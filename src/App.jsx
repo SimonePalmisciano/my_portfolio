@@ -3,7 +3,7 @@ import Header from "./partials/Header.jsx";
 import About from "./sections/About.jsx";
 import Skills from "./sections/Skills.jsx";
 import Projects from "./sections/Projects.jsx";
-import Journey from "./sections/Journey.jsx";
+import Passions from "./sections/Passions.jsx";
 import Contact from "./sections/Contact.jsx";
 
 
@@ -28,7 +28,7 @@ function App() {
       <About />
       <Skills />
       <Projects />
-      <Journey />
+      <Passions />
       <Contact />
 
     </main>
