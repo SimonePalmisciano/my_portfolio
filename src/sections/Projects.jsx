@@ -1,3 +1,5 @@
+import { Link } from "react-router"
+
 function Projects() {
     return (
         <>
@@ -28,9 +30,9 @@ function Projects() {
                             </div>
                             <div className="col-6">
                                 <img src="" alt="" />
-                                <a className="btn" href="">
+                                <Link className="btn" to="/project">
                                     Scopri di più
-                                </a>
+                                </Link>
                             </div>
                             <div className="col-6">
                                 <ol>
@@ -61,9 +63,9 @@ function Projects() {
                             </div>
                             <div className="col-6">
                                 <img src="" alt="" />
-                                <a className="btn" href="">
+                                <Link className="btn" to="/project">
                                     Scopri di più
-                                </a>
+                                </Link>
                             </div>
                             <div className="col-6">
                                 <ol>
