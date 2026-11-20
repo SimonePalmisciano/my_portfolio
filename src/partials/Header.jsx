@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import Footer from "./Footer";
 
 function Header() {
@@ -24,29 +25,30 @@ function Header() {
                 <nav className="navbar w-100">
                     <ul className="navbar-nav flex-column w-100">
                         <li className="nav-item">
-                            <a className="nav-link" href="#about">
+                            <Link className="nav-link" to="/#about">
                                 Chi
-                                sono</a>
+                                sono
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#skills">
+                            <Link className="nav-link" to="/#skills">
                                 Competenze
-                            </a>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#projects">
+                            <Link className="nav-link" to="/#projects">
                                 Progetti
-                            </a>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#passions">
+                            <Link className="nav-link" to="/#passions">
                                 Passioni
-                            </a>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#contact">
+                            <Link className="nav-link" to="/#contact">
                                 Contatti
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </nav>
@@ -56,9 +58,9 @@ function Header() {
 
             <nav className="navbar navbar-dark bg-dark fixed-top d-lg-none">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#about">
+                    <Link className="navbar-brand" to="/#about">
                         Simone Palmisciano
-                    </a>
+                    </Link>
                     <button
                         className="navbar-toggler"
                         type="button"
@@ -90,29 +92,30 @@ function Header() {
                         <div className="offcanvas-body">
                             <ul className="navbar-nav">
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#about" data-bs-dismiss="offcanvas">
+                                    <Link className="nav-link" to="/#about" data-bs-dismiss="offcanvas">
                                         Chi
-                                        sono</a>
+                                        sono
+                                    </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#skills" data-bs-dismiss="offcanvas">
+                                    <Link className="nav-link" to="/#skills" data-bs-dismiss="offcanvas">
                                         Competenze
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#projects" data-bs-dismiss="offcanvas">
+                                    <Link className="nav-link" to="/#projects" data-bs-dismiss="offcanvas">
                                         Progetti
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#passions" data-bs-dismiss="offcanvas">
+                                    <Link className="nav-link" to="/#passions" data-bs-dismiss="offcanvas">
                                         Passioni
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#contact" data-bs-dismiss="offcanvas">
+                                    <Link className="nav-link" to="/#contact" data-bs-dismiss="offcanvas">
                                         Contatti
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>

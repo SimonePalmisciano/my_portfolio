@@ -1,8 +1,18 @@
-import { Outlet } from "react-router";
-import HomePage from "../pages/HomePage.jsx";
+import { Outlet, useLocation } from "react-router";
 import Header from "../partials/Header.jsx";
+import { useEffect } from "react";
 
 function MainLayout() {
+
+    const {pathname, hash} = useLocation(); // hook che permette di conoscere l'indirizzo corrente
+
+    useEffect(() => {
+        if (pathname !== '/' || !hash) return;
+
+        document.getElementById(hash.slice(1)) // rimuove # e prende l'elemento con id ''
+        ?.scrollIntoView({behavior: 'smooth'}); // e con scrollintoview scorre fino l'elemento trovato
+    },[pathname, hash]);
+
     return (
         <>
             <div className="container-fluid">
