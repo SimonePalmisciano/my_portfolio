@@ -30,7 +30,7 @@ function Projects() {
                             </div>
                             <div className="col-6">
                                 <img src="" alt="" />
-                                <Link className="btn" to="/project">
+                                <Link className="btn" to="/project/jurassicpork">
                                     Scopri di più
                                 </Link>
                             </div>
@@ -63,7 +63,40 @@ function Projects() {
                             </div>
                             <div className="col-6">
                                 <img src="" alt="" />
-                                <Link className="btn" to="/project">
+                                <Link className="btn" to="/project/prometheuslabs">
+                                    Scopri di più
+                                </Link>
+                            </div>
+                            <div className="col-6">
+                                <ol>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ol>
+                            </div>
+                            <div className="col-12">
+                                <hr />
+                            </div>
+                        </div>
+                    </article>
+
+                    <article>
+                        <h4>
+                            Progetto 1
+                        </h4>
+                        <p>
+                            il mio primo progetto
+                        </p>
+                        <div>
+                            <div className="col-12">
+                                <p>
+                                    ciao
+                                </p>
+                            </div>
+                            <div className="col-6">
+                                <img src="" alt="" />
+                                <Link className="btn" to="/project/games&games">
                                     Scopri di più
                                 </Link>
                             </div>

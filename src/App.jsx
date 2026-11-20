@@ -15,7 +15,7 @@ function App() {
         <Routes>
           <Route Component={MainLayout}>
             <Route index Component={HomePage} />
-            <Route path="/project" Component={ProjectDetail} />
+            <Route path="/project/:projectId" Component={ProjectDetail} />
           </Route>
         </Routes>
       </BrowserRouter>
