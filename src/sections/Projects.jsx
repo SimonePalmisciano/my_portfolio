@@ -56,7 +56,7 @@ function Projects() {
                         <div>
                             <div className="col-12">
                                 <p>
-
+                                    ciao
                                 </p>
                             </div>
                             <div className="col-6">
