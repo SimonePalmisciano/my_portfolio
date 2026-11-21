@@ -7,7 +7,13 @@ export const projects = [
         imgHome: '',
         imgMain: '',
         imgCatalog: '',
-        imgDetail: ''
+        imgDetail: '',
+        detail_list: [
+            'first',
+            'second',
+            'third',
+            'forth'
+        ]
     },
     {
         id: 'prometheuslabs',
@@ -17,7 +23,13 @@ export const projects = [
         imgHome: '',
         imgMain: '',
         imgCatalog: '',
-        imgDetail: ''
+        imgDetail: '',
+        detail_list: [
+            'first',
+            'second',
+            'third',
+            'forth'
+        ]
     },
     {
         id: 'games&games',
@@ -27,6 +39,12 @@ export const projects = [
         imgHome: '',
         imgMain: '',
         imgCatalog: '',
-        imgDetail: ''
+        imgDetail: '',
+        detail_list: [
+            'first',
+            'second',
+            'third',
+            'forth'
+        ]
     },
 ]

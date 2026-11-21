@@ -42,10 +42,11 @@ function Projects() {
                                         </div>
                                         <div className="col-6">
                                             <ol>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
+                                                {project.detail_list.map((detail) => {
+                                                    return (
+                                                        <li key={project.id}>{detail}</li>
+                                                    )
+                                                })}
                                             </ol>
                                         </div>
                                         <div className="col-12">
