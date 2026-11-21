@@ -22,20 +22,20 @@ function Projects() {
                         {projects.map((project) => {
                             return (
                                 <article key={project.id}>
-                                    <h4>
+                                    <h4 className="text-uppercase">
                                         {project.nome}
                                     </h4>
                                     <p>
-                                        il mio primo progetto
+                                        {project.short_description}
                                     </p>
                                     <div>
                                         <div className="col-12">
                                             <p>
-                                                ciao
+                                                {project.description}
                                             </p>
                                         </div>
                                         <div className="col-6">
-                                            <img src="" alt="" />
+                                            <img src={project.imgHome} alt={project.name} />
                                             <Link className="btn" to="/project/prometheuslabs">
                                                 Scopri di più
                                             </Link>
